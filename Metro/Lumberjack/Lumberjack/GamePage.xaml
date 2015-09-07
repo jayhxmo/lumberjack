@@ -1,0 +1,30 @@
+﻿<SwapChainBackgroundPanel
+    x:Class="Lumberjack.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lumberjack"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+    mc:Ignorable="d">
+
+    <UI:AdControl 
+            ApplicationId="71657e60-ed07-44b1-aa50-c8f4c2121012" 
+            AdUnitId="184485" 
+            HorizontalAlignment="Left" 
+            Height="600" 
+            Margin="0,0,0,0" 
+            VerticalAlignment="Center" 
+            Width="160"/>
+    <Grid Margin="160, 0, 160, 0">
+    </Grid>
+    
+    <UI:AdControl 
+            ApplicationId="71657e60-ed07-44b1-aa50-c8f4c2121012" 
+            AdUnitId="184484" 
+            HorizontalAlignment="Right" 
+            Height="600" 
+            Margin="0,0,0,0" 
+            VerticalAlignment="Center" 
+            Width="160"/>
+</SwapChainBackgroundPanel>
